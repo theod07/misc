@@ -24,6 +24,7 @@ brew cask install intellij-idea
 brew cask install postico
 brew cask install postgres
 brew cask install shiftit
+#brew cask install spectacle
 #brew cask install betterzipql
 brew cask install qlcolorcode
 brew cask install qlimagesize
@@ -51,6 +52,18 @@ brew cask install google-drive
 #brew cask install tiddlywiki
 brew cask install evernote
 brew cask install slack
+#brew cask install kindle
+#brew cask install omnigraffle
+#brew cask install spotify
+#brew cask install utorrent
+#brew cask install the-unarchiver
+#brew cask install virtualbox
+brew cask install intellij-idea
+
+
+
+#brew install gpg
+
 
 echo 'export PATH="~/Applications/Postgres.app/Contents/Versions/latest/bin/:$PATH"' >> ~/.bash_profile
  
@@ -64,6 +77,12 @@ brew install gcc
 brew install npm
 brew install git
 brew install tree #view directory structure under CWD
+brew install youtube-dl
+brew install mackup 
+brew install htop #best top replacement
+brew install speedtest_cli #gives you network bandwidth measurement
+brew install lftp #nice commandline ftp
+
 #brew install coreutils
 #brew install moreutils
 #brew install findutils
@@ -83,13 +102,10 @@ brew install tree #view directory structure under CWD
 #brew install rbenv
 #brew install ruby-build
 #brew install rbenv-default-gems
-brew install youtube-dl
-#brew install htop #best top replacement
 #brew install nmap
 #brew install rtv #reddit client for your terminal
-brew install mackup 
-#brew install opensc
-#brew install mutt
+#brew install opensc 
+#brew install mutt #powerful text-based mail client for Unix operating systems
 #brew install the_silver_searcher # search files like grep, but faster
 #brew install elinks #browse the web in text mode
 #brew install gnupg #reconquer your privacy
@@ -97,53 +113,47 @@ brew install mackup
 #brew install transmission #bittorrent client
 #brew install node
 #brew install go
-#brew install speedtest_cli #gives you network bandwidth measurement
 #brew install aws-shell
 #brew install jq #'like sed for JSON data'
-#brew install lftp #nice commandline ftp
 #brew install unrar #unarchive .rar files
-###################################################
-###################################################
-#`multi markdown` - supports the awesome mmd formatting system
-#`bash` - gives you v4, a more modern version (note you need to add it to approved shells and use chsh to switch to it
-#`bash-completion` - excellent escape command completion for bash
-#`git-crypt` - to support automatic encryption on pushing to git
-#awscli - commandline tools for Amazon web services -- frequently updated. Nice to have brew take care of it
-#calc - my go-to calculator
-#ccrypt - strong file crypt tool
-#dos2unix - convert CRLF <--> CR
-#geoip - find where an IP address comes from
-#git-flow
-#hh - shell history browser / searcher
-#irssi - my favorite commandline irc client
-#links - best text mode web browser
-#lynx - second best text mode web browser
-#ncdu - ncurses disk usage browser
-#tig - curses git repo browser; git command line interface
-#tmux - terminal multiplexer - a better 'screen'
-#vimpager - use vim colorization rules for paging through any file - you may want to replace 'less' with this
-#ffmpeg
-#mysql
-#colordiff
-#gawk 
-#cowsay
-#axel
-#rlwrap #readline wrap
-
-
-
-#brew cask install kindle
-#brew cask install omnigraffle
-#brew cask install spectacle
-#brew cask install spotify
-#brew cask install utorrent
-#brew cask install the-unarchiver
-#brew cask install virtualbox
+#brew install multimarkdown #supports the awesome mmd formatting system
+#brew install bash #gives you v4, a more modern version (note you need to add it to approved shells and use chsh to switch to it
+#brew install bash-completion #excellent escape command completion for bash
+#brew install git-crypt #to support automatic encryption on pushing to git
+#brew install awscli #commandline tools for AWS -- frequently updated
+#brew install calc 
+#brew install ccrypt #strong file crypt tool
+#brew install dos2unix #convert CRLF <--> CR
+#brew install geoip #find where an IP address comes from
+#brew install git-flow
+#brew install hh #shell history browser / searcher
+#brew install irssi #my favorite commandline irc client
+#brew install links #best text mode web browser
+#brew install lynx #second best text mode web browser
+brew install ncdu #ncurses disk usage browser
+#brew install tig #curses git repo browser; git command line interface
+#brew install tmux #terminal multiplexer - a better 'screen'
+#brew install vimpager #use vim colorization rules for paging through any file - you may want to replace 'less' with this
+brew install ffmpeg #A complete, cross-platform solution to record, convert and stream audio and video.
+#brew install mysql
+#brew install colordiff #diff with pretty syntax highlighting
+#brew install gawk #
+#brew install cowsay
+#brew install axel #light command line download accelerator
+#brew install rlwrap #readline wrap
 #brew install dockutil # clean up the dock bar
-#brew cask install intellij-idea
-#brew install gpg
+brew install webkit2png
+#brew install graphicsmagick #swiss army knife of image processing
+#brew install imagemagick #edit bitmap images
+#brew install watch #provide information out of the pseudo-filesystem most commonly located at /proc
+#brew install jpegoptim #utility to optimize/compress JPEG files
+#brew install fish #a smart and user-friendly command line shell for macOS, Linux, and the rest of the family.
+#brew install hub #a command-line wrapper for git that makes you better at GitHub.
+#brew install z #Tracks your most used directories, based on 'frecency'.
+#brew install vnstat #keeps a log of network traffic for the selected interface(s)
 
-
+###################################################
+###################################################
 #I use RVM: Ruby Version Manager for ruby versions, creationix/nvm for node versions and SDKMAN! the Software Development Kit Manager for JVM based languages/tools.
 #sdk install gradle
 #sdk install groovy
@@ -159,7 +169,6 @@ brew install mackup
 
 # Run the rest of the script from a safe place
 cd /tmp
- 
 # python
 curl -L https://repo.continuum.io/archive/Anaconda3-4.2.0-MacOSX-x86_64.sh > anaconda_script.sh
 bash anaconda_script.sh
