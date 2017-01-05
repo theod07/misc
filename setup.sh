@@ -58,8 +58,9 @@ brew cask install slack
 #brew cask install utorrent
 #brew cask install the-unarchiver
 #brew cask install virtualbox
-brew cask install intellij-idea
-
+#brew cask install intellij-idea
+brew cask install webstorm
+brew cask install pycharm
 
 
 #brew install gpg
