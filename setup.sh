@@ -133,7 +133,7 @@ brew install lftp #nice commandline ftp
 #brew install lynx #second best text mode web browser
 brew install ncdu #ncurses disk usage browser
 #brew install tig #curses git repo browser; git command line interface
-#brew install tmux #terminal multiplexer - a better 'screen'
+brew install tmux #terminal multiplexer - a better 'screen'
 #brew install vimpager #use vim colorization rules for paging through any file - you may want to replace 'less' with this
 brew install ffmpeg #A complete, cross-platform solution to record, convert and stream audio and video.
 #brew install mysql
