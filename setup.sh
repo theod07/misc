@@ -54,7 +54,7 @@ brew cask install evernote
 brew cask install slack
 #brew cask install kindle
 #brew cask install omnigraffle
-#brew cask install spotify
+brew cask install spotify
 #brew cask install utorrent
 #brew cask install the-unarchiver
 #brew cask install virtualbox
