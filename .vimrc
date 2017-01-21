@@ -47,3 +47,12 @@ nmap <silent> <leader>s :set spell!<CR>
 " Set language to english (USA)
 set spelllang=en_us
 
+" http://vimcasts.org/episodes/bubbling-text/
+" can also install plugin `unimpaired` for better functionality
+" Bubble single lines
+nmap <C-Up> ddkP
+nmap <C-Down> ddp
+" Bubble multiple lines
+vmap <C-Up> xkP`[V`]
+vmap <C-Down> xp`[V`]
+
