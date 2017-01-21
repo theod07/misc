@@ -39,3 +39,7 @@ vmap <D-]> >gv
 
 " Make Vim more liberal about hidden buffers.
 set hidden
+
+" Toggle spell checking on and off with `,s`
+let mapleader = ","
+nmap <silent> <leader>s :set spell!<CR>
