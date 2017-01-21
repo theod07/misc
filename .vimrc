@@ -43,3 +43,7 @@ set hidden
 " Toggle spell checking on and off with `,s`
 let mapleader = ","
 nmap <silent> <leader>s :set spell!<CR>
+
+" Set language to english (USA)
+set spelllang=en_us
+
