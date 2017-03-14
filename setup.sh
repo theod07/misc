@@ -61,6 +61,7 @@ brew cask install spotify
 #brew cask install intellij-idea
 brew cask install webstorm
 brew cask install pycharm
+brew cask install openshot-video-editor
 
 
 #brew install gpg
