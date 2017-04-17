@@ -68,7 +68,7 @@ brew cask install openshot-video-editor
 #brew install gpg
 
 
-echo 'export PATH="~/Applications/Postgres.app/Contents/Versions/latest/bin/:$PATH"' >> ~/.bash_profile
+echo 'export PATH="/Applications/Postgres.app/Contents/Versions/latest/bin/:$PATH"' >> ~/.bash_profile
  
 ## mac packages
 brew install wget
