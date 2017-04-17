@@ -60,7 +60,8 @@ brew cask install spotify
 #brew cask install virtualbox
 #brew cask install intellij-idea
 brew cask install webstorm
-brew cask install pycharm
+# brew cask install pycharm
+brew cask install pycharm-ce
 brew cask install openshot-video-editor
 
 
