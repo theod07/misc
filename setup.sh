@@ -86,6 +86,7 @@ brew install htop #best top replacement
 brew install speedtest_cli #gives you network bandwidth measurement
 brew install lftp #nice commandline ftp
 brew install ctags #manage programming language tags (used with vim)
+brew install phantomjs
 
 #brew install coreutils
 #brew install moreutils
