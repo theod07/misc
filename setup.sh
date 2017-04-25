@@ -123,7 +123,7 @@ brew install phantomjs
 #brew install unrar #unarchive .rar files
 #brew install multimarkdown #supports the awesome mmd formatting system
 #brew install bash #gives you v4, a more modern version (note you need to add it to approved shells and use chsh to switch to it
-brew install bash-completion #excellent escape command completion for bash
+#brew install bash-completion #excellent escape command completion for bash
 #brew install git-crypt #to support automatic encryption on pushing to git
 #brew install awscli #commandline tools for AWS -- frequently updated
 #brew install calc 
