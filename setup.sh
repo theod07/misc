@@ -87,13 +87,14 @@ brew install speedtest_cli #gives you network bandwidth measurement
 brew install lftp #nice commandline ftp
 brew install ctags #manage programming language tags (used with vim)
 brew install phantomjs
+brew install heroku
+brew install vim #--override-system-vi
 
 #brew install coreutils
 #brew install moreutils
 #brew install findutils
 #brew install gnu-sed --with-default-names
 #brew install zsh
-#brew install vim --override-system-vi
 #brew install macvim
 #brew install homebrew/dupes/grep
 #brew install homebrew/dupes/openssh
