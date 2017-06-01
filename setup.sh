@@ -108,7 +108,7 @@ brew install vim #--override-system-vi
 #brew install rbenv
 #brew install ruby-build
 #brew install rbenv-default-gems
-#brew install nmap
+brew install nmap
 #brew install rtv #reddit client for your terminal
 #brew install opensc 
 #brew install mutt #powerful text-based mail client for Unix operating systems
