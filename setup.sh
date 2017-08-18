@@ -63,6 +63,7 @@ brew cask install webstorm
 # brew cask install pycharm
 brew cask install pycharm-ce
 brew cask install openshot-video-editor
+brew cask install screaming-frog-seo-spider
 
 
 #brew install gpg
