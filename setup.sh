@@ -66,6 +66,7 @@ brew cask install openshot-video-editor
 brew cask install screaming-frog-seo-spider
 brew cask install limechat
 brew cask install android-studio
+brew cask install mactex
 
 
 #brew install gpg
