@@ -125,7 +125,7 @@ brew install nmap
 #brew install go
 #brew install aws-shell
 #brew install jq #'like sed for JSON data'
-#brew install unrar #unarchive .rar files
+brew install unrar #unarchive .rar files
 #brew install multimarkdown #supports the awesome mmd formatting system
 #brew install bash #gives you v4, a more modern version (note you need to add it to approved shells and use chsh to switch to it
 #brew install bash-completion #excellent escape command completion for bash
