@@ -161,6 +161,7 @@ brew install webkit2png
 #brew install hub #a command-line wrapper for git that makes you better at GitHub.
 #brew install z #Tracks your most used directories, based on 'frecency'.
 #brew install vnstat #keeps a log of network traffic for the selected interface(s)
+brew install mit-scheme
 
 ###################################################
 ###################################################
