@@ -67,6 +67,7 @@ brew cask install screaming-frog-seo-spider
 brew cask install limechat
 brew cask install android-studio
 brew cask install mactex
+brew cask install pdftotext
 
 
 #brew install gpg
