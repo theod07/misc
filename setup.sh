@@ -68,6 +68,7 @@ brew cask install limechat
 brew cask install android-studio
 brew cask install mactex
 brew cask install pdftotext
+brew cask install keycastr
 
 
 #brew install gpg
