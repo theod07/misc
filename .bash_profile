@@ -27,39 +27,6 @@ export NVM_DIR="$HOME/.nvm"
 
 
 
-
-###########################
-# bash_exports
-###########################
-
-# Make vim the default editor
-export EDITOR="vim"
-
-# Ignore duplicate commands in the history
-export HISTCONTROL=ignoredups
-
-# Increase the maximum number of lines contained in the history file
-# (default is 500)
-export HISTFILESIZE=10000
-
-# Increase the maximum number of commands to remember
-# (default is 500)
-export HISTSIZE=10000
-
-# Don't clear the screen after quitting a manual page
-export MANPAGER="less -X"
-export PAGER="less -S"
-
-# Make new shells get the history lines from all previous
-# shells instead of the default "last window closed" history
-export PROMPT_COMMAND="history -a; $PROMPT_COMMAND"
-
-
-###########################
-# bash_exports
-# TODO -- http://ss64.com/bash/shopt.html
-###########################
-
 export PATH="$HOME/.cargo/bin:$PATH"
 
 
