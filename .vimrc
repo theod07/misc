@@ -1,4 +1,16 @@
 
+syntax on       " Syntax highlighting
+set showmatch   " Show matching brackets
+set ruler       " Show line number in status bar
+set number      " Show line numbers
+set nocompatible    " vim, not vi
+set wildmenu    " menu has tab completion
+set backspace=indent,eol,start
+set hlsearch
+
+" searching
+set ignorecase
+set smartcase
 
 " Shortcut to rapidly toggle `set list`
 nmap <leader>l :set list!<CR>
@@ -56,3 +68,5 @@ nmap <C-Down> ddp
 vmap <C-Up> xkP`[V`]
 vmap <C-Down> xp`[V`]
 
+" no backup when editing crontab files
+au BufNewFile,BufRead crontab.* set nobackup | set nowritebackup
