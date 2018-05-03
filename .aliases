@@ -51,6 +51,9 @@ alias hidedeskicons="defaults write com.apple.finder CreateDesktop -bool false &
 # random, fast grep without all the library s***
 alias fgrep='fgrep -ri --exclude-dir=__pycache__ --exclude-dir=aaucm-scraper --exclude-dir=locations-database --exclude-dir=static --exclude-dir=templates --exclude-dir=venv --exclude-dir=node_modules --exclude-dir=build'
 
+# Lock the screen (when going AFK)
+alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+
 # git
 alias gs='git status'
 alias go='git checkout'
