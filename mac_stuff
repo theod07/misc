@@ -14,3 +14,6 @@ defaults write com.apple.screencapture location ~/Documents/screenshots
 
 # Disable power button from putting  mac in sleep mode
 defaults write com.apple.loginwindow PowerButtonSleepsSystem -bool no
+
+# Display file extensions in Finder
+defaults write NSGlobalDomain AppleShowAllExtensions -bool true
