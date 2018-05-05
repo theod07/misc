@@ -17,3 +17,6 @@ defaults write com.apple.loginwindow PowerButtonSleepsSystem -bool no
 
 # Display file extensions in Finder
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+
+# Take screenshots without window shadows
+defaults write com.apple.screencapture disable-shadow -bool true
