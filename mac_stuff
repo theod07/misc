@@ -20,3 +20,7 @@ defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
 # Take screenshots without window shadows
 defaults write com.apple.screencapture disable-shadow -bool true
+
+# Don't open Photos automatically
+defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
+
