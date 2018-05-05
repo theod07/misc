@@ -39,6 +39,9 @@ defaults write NSGlobalDomain NSDisableAutomaticTermination -bool true
 # Disable the crash reporter
 #defaults write com.apple.CrashReporter DialogType -string "none"
 
+# Set Help Viewer windows to non-floating mode
+#defaults write com.apple.helpviewer DevMode -bool true
+
 # set screenshot file type to jpg (default png)
 defaults write com.apple.screencapture type jpg
 
