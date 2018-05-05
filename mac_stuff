@@ -12,3 +12,5 @@ defaults write com.apple.screencapture type jpg
 # set location for screenshots (default ~/Desktop)
 defaults write com.apple.screencapture location ~/Documents/screenshots
 
+# Disable power button from putting  mac in sleep mode
+defaults write com.apple.loginwindow PowerButtonSleepsSystem -bool no
