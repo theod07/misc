@@ -33,3 +33,8 @@ defaults write -g NSWindowResizeTime -float 0.001
 defaults write /Library/Preferences/.GlobalPreferences AppleInterfaceTheme Dark
 # Restore default Light Mode Theme
 defaults write /Library/Preferences/.GlobalPreferences AppleInterfaceTheme Light
+
+# Set a blazingly fast keyboard repeat rate
+# https://apple.stackexchange.com/questions/10467/how-to-increase-keyboard-key-repeat-rate-on-os-x
+defaults write NSGlobalDomain KeyRepeat -int 1         # normal minimum is 2 (30 ms)
+defaults write NSGlobalDomain InitialKeyRepeat -int 10 # normal minimum is 15 (225 ms)
