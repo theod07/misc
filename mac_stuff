@@ -9,6 +9,10 @@ sudo nvram SystemAudioVolume=" "
 # Set sidebar icon size to small
 defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 1
 
+# Always show scrollbars
+defaults write NSGlobalDomain AppleShowScrollBars -string "Always"
+# Possible values: `WhenScrolling`, `Automatic` and `Always`
+
 # set screenshot file type to jpg (default png)
 defaults write com.apple.screencapture type jpg
 
