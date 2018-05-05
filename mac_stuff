@@ -28,3 +28,8 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 defaults write -g NSWindowResizeTime -float 0.001
 # Restore default full screen animation time
 # defaults delete -g NSWindowResizeTime
+
+# Enable Dark Mode Theme
+defaults write /Library/Preferences/.GlobalPreferences AppleInterfaceTheme Dark
+# Restore default Light Mode Theme
+defaults write /Library/Preferences/.GlobalPreferences AppleInterfaceTheme Light
