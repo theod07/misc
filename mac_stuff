@@ -1,3 +1,11 @@
+
+###############################################################################
+# General UI/UX                                                               #
+###############################################################################
+
+# Disable the sound effects on boot
+sudo nvram SystemAudioVolume=" "
+
 # set screenshot file type to jpg (default png)
 defaults write com.apple.screencapture type jpg
 
