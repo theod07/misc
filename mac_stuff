@@ -200,5 +200,9 @@ defaults write com.apple.finder WarnOnEmptyTrash -bool false
 # Dock, Dashboard, and hot corners                                            #
 ###############################################################################
 
+# Dock: enable highlight hover effect for the grid view of a stack
+# TODO: test this out
+#defaults write com.apple.dock mouse-over-hilite-stack -bool true
+
 # Dock: set the icon size of Dock items to 36 pixels
 defaults write com.apple.dock tilesize -int 36
