@@ -195,3 +195,10 @@ defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
 
 # Finder: disable warning before emptying the Trash
 defaults write com.apple.finder WarnOnEmptyTrash -bool false
+
+###############################################################################
+# Dock, Dashboard, and hot corners                                            #
+###############################################################################
+
+# Dock: set the icon size of Dock items to 36 pixels
+defaults write com.apple.dock tilesize -int 36
