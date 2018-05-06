@@ -77,9 +77,6 @@ defaults write /Library/Preferences/.GlobalPreferences AppleInterfaceTheme Light
 defaults write NSGlobalDomain KeyRepeat -int 1         # normal minimum is 2 (30 ms)
 defaults write NSGlobalDomain InitialKeyRepeat -int 10 # normal minimum is 15 (225 ms)
 
-# Disable warning before emptying the Trash
-defaults write com.apple.finder WarnOnEmptyTrash -bool false
-
 ###############################################################################
 # Trackpad, mouse, keyboard, Bluetooth accessories, and input                 #
 ###############################################################################
@@ -195,3 +192,6 @@ defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 # `clmv` ▸ Column View
 # `icnv` ▸ Icon View
 defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
+
+# Finder: disable warning before emptying the Trash
+defaults write com.apple.finder WarnOnEmptyTrash -bool false
