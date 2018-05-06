@@ -80,14 +80,6 @@ defaults write NSGlobalDomain InitialKeyRepeat -int 10 # normal minimum is 15 (2
 # Disable warning before emptying the Trash
 defaults write com.apple.finder WarnOnEmptyTrash -bool false
 
-# Use list view in all Finder windows by default
-# Four-letter codes for the other view modes:
-# `Flwv` ▸ Cover Flow View
-# `Nlsv` ▸ List View
-# `clmv` ▸ Column View
-# `icnv` ▸ Icon View
-defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
-
 ###############################################################################
 # Trackpad, mouse, keyboard, Bluetooth accessories, and input                 #
 ###############################################################################
@@ -195,3 +187,11 @@ defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 # Remove the spring loading delay for directories
 # TODO: test this out
 #defaults write NSGlobalDomain com.apple.springing.delay -float 0
+
+# Finder: use list view in all Finder windows by default
+# Four-letter codes for the other view modes:
+# `Flwv` ▸ Cover Flow View
+# `Nlsv` ▸ List View
+# `clmv` ▸ Column View
+# `icnv` ▸ Icon View
+defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
