@@ -68,9 +68,6 @@ defaults write com.apple.loginwindow PowerButtonSleepsSystem -bool no
 # Display file extensions in Finder
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
-# Take screenshots without window shadows
-defaults write com.apple.screencapture disable-shadow -bool true
-
 # Don't open Photos automatically
 defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 
@@ -147,3 +144,6 @@ defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 # TODO: test this out
 defaults write com.apple.screensaver askForPassword -int 1
 defaults write com.apple.screensaver askForPasswordDelay -int 0
+
+# Take screenshots without window shadows
+defaults write com.apple.screencapture disable-shadow -bool true
