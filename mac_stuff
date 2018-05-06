@@ -132,3 +132,18 @@ defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad DragLock -bool
 # Enable full keyboard access for all controls
 # (e.g. enable Tab in modal dialogs)
 defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
+
+# Set mouse tracking speed (1.0 slow, 5.0 fast)
+# TODO: test this out
+#defaults write -g com.apple.mouse.scaling 4.5
+# Restore to default setting
+#defaults delete -g com.apple.mouse.scaling
+
+###############################################################################
+# Screen                                                                      #
+###############################################################################
+
+# Require password immediately after sleep or screen saver begins
+# TODO: test this out
+defaults write com.apple.screensaver askForPassword -int 1
+defaults write com.apple.screensaver askForPasswordDelay -int 0
