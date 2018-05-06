@@ -59,9 +59,6 @@ sudo systemsetup -setrestartfreeze on
 # Disable power button from putting  mac in sleep mode
 defaults write com.apple.loginwindow PowerButtonSleepsSystem -bool no
 
-# Display file extensions in Finder
-defaults write NSGlobalDomain AppleShowAllExtensions -bool true
-
 # Don't open Photos automatically
 defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 
@@ -171,3 +168,6 @@ defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
 
 # Finder: show hidden files by default
 #defaults write com.apple.finder AppleShowAllFiles -bool true
+
+# Finder: show all filename extensions
+defaults write NSGlobalDomain AppleShowAllExtensions -bool true
