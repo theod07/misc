@@ -56,9 +56,6 @@ sudo systemsetup -setrestartfreeze on
 # Disable Notification Center and remove the menu bar icon
 #launchctl unload -w /System/Library/LaunchAgents/com.apple.notificationcenterui.plist 2> /dev/null
 
-# set screenshot file type to jpg (default png)
-defaults write com.apple.screencapture type jpg
-
 # set location for screenshots (default ~/Desktop)
 defaults write com.apple.screencapture location ~/Documents/screenshots
 
@@ -144,6 +141,9 @@ defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
 # TODO: test this out
 defaults write com.apple.screensaver askForPassword -int 1
 defaults write com.apple.screensaver askForPasswordDelay -int 0
+
+# set screenshot file type to jpg (default png)
+defaults write com.apple.screencapture type jpg
 
 # Take screenshots without window shadows
 defaults write com.apple.screencapture disable-shadow -bool true
