@@ -119,3 +119,7 @@ defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool
 # Enable "tap-and-a-half" to drag
 defaults write com.apple.AppleMultitouchTrackpad Dragging -bool true
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Dragging -bool true
+
+# Disable drag-lock (double tap turns on dragging. drag lock requires another tap to disable dragging)
+defaults write com.apple.AppleMultitouchTrackpad DragLock -bool false
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad DragLock -bool true
