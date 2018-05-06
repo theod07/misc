@@ -191,3 +191,7 @@ defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 # Enable spring loading for directories
 # TODO: test this out
 #defaults write NSGlobalDomain com.apple.springing.enabled -bool true
+
+# Remove the spring loading delay for directories
+# TODO: test this out
+#defaults write NSGlobalDomain com.apple.springing.delay -float 0
