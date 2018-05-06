@@ -123,3 +123,8 @@ defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Dragging -bool
 # Disable drag-lock (double tap turns on dragging. drag lock requires another tap to disable dragging)
 defaults write com.apple.AppleMultitouchTrackpad DragLock -bool false
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad DragLock -bool true
+
+# Enable 3-finger drag. (Moving with 3 fingers in any window "chrome" moves the window.)
+# TODO: test this out
+#defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerDrag -bool true
+#defaults write com.apple.AppleMultitouchTrackpad TrackpadThreeFingerDrag -bool true
