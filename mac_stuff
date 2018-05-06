@@ -171,3 +171,7 @@ defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
 
 # Finder: show all filename extensions
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+
+# Finder: show status bar
+# TODO: test this out
+#defaults write com.apple.finder ShowStatusBar -bool true
