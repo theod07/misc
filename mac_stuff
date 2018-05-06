@@ -88,9 +88,6 @@ defaults write com.apple.finder WarnOnEmptyTrash -bool false
 # `icnv` ▸ Icon View
 defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
 
-# Disable the extension change warning in OS X Finder
-defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
-
 ###############################################################################
 # Trackpad, mouse, keyboard, Bluetooth accessories, and input                 #
 ###############################################################################
@@ -187,3 +184,6 @@ defaults write com.apple.finder _FXSortFoldersFirst -bool true
 
 # When performing a search, search the current folder by default
 defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
+
+# Finder: disable the warning when changing a file extension
+defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
