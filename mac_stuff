@@ -206,3 +206,6 @@ defaults write com.apple.finder WarnOnEmptyTrash -bool false
 
 # Dock: set the icon size of Dock items to 36 pixels
 defaults write com.apple.dock tilesize -int 36
+
+# Dock: minimize windows into their application’s icon
+defaults write com.apple.dock minimize-to-application -bool true
