@@ -187,3 +187,7 @@ defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
 
 # Finder: disable the warning when changing a file extension
 defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
+
+# Enable spring loading for directories
+# TODO: test this out
+#defaults write NSGlobalDomain com.apple.springing.enabled -bool true
