@@ -221,3 +221,6 @@ defaults write com.apple.dock autohide-delay -float 0
 
 # Dock: faster animation when hiding/showing the Dock
 defaults write com.apple.dock autohide-time-modifier -float 0.3
+
+# Dock: icons of hidden applications translucent
+defaults write com.apple.dock showhidden -bool true
