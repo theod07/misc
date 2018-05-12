@@ -215,3 +215,6 @@ defaults write com.apple.dashboard mcx-disabled -bool true
 
 # Dock: autohide
 defaults write com.apple.dock autohide -bool true
+
+# Dock: remove the autohide delay
+defaults write com.apple.dock autohide-delay -float 0
