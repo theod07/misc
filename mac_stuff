@@ -240,3 +240,12 @@ defaults write com.apple.dock showhidden -bool true
 # Bottom left screen corner → Put display to sleep
 defaults write com.apple.dock wvous-bl-corner -int 10
 defaults write com.apple.dock wvous-bl-modifier -int 0
+
+###############################################################################
+# Spotlight                                                                   #
+###############################################################################
+
+# Spotlight: Disable indexing for any volume that gets mounted and has not yet
+# been indexed before.
+# Use `sudo mdutil -i off "/Volumes/foo"` to stop indexing any volume.
+sudo defaults write /.Spotlight-V100/VolumeConfiguration Exclusions -array "/Volumes"
