@@ -287,3 +287,11 @@ killall mds > /dev/null 2>&1
 sudo mdutil -i on / > /dev/null
 # Rebuild the index from scratch
 sudo mdutil -E / > /dev/null
+
+
+###############################################################################
+# Activity Monitor                                                            #
+###############################################################################
+
+# Activity Monitor: Show the main window when launching
+defaults write com.apple.ActivityMonitor OpenMainWindow -bool true
