@@ -65,7 +65,7 @@ brew cask install pycharm-ce
 brew cask install openshot-video-editor
 brew cask install screaming-frog-seo-spider
 brew cask install limechat
-brew cask install android-studio
+# brew cask install android-studio
 brew cask install mactex
 brew cask install pdftotext
 brew cask install keycastr
