@@ -69,6 +69,7 @@ brew cask install limechat
 brew cask install mactex
 brew cask install pdftotext
 brew cask install keycastr
+brew cask install alt-tab
 
 
 #brew install gpg
