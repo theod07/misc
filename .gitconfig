@@ -1,7 +1,7 @@
 # This is Git's per-user configuration file.
 [user]
-	name = theod07
-	email = theodore.do@gmail.com
+    name = theod07
+    email = 12038600+theod07@users.noreply.github.com
 [alias]
     hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
     ap = add --patch
@@ -11,4 +11,11 @@
     ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
     ld = log --pretty=format:"%C(yellow)%h\\ %C(green)%ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=short --graph
     ls = log --pretty=format:"%C(green)%h\\ %C(yellow)[%ad]%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=relative
-
+    log1 = log --oneline
+    showname = show --name-only
+    amend = commit --amend
+    fixup = commit --fixup
+    ghosts = log -S
+    blame = blame -M3 -w
+    grep = grep -C 5
+    rebase = rebase --autostash
